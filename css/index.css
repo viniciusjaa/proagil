@@ -1,0 +1,359 @@
+/* index.css */
+
+body {
+  margin: 0px;
+  background-color: #0079ac;
+  color: #fafafa;
+  font-family: 'Montserrat', sans-serif;
+
+}
+/* menu */
+.top {
+  position: relative;
+  max-width: 920px;
+  max-height: 0px;
+  margin: auto;
+  z-index: 2;
+}
+
+.menu {
+  padding: 20px 25px;
+  /* border: 1px solid #fafafa; */
+  position: relative;
+  margin: auto;
+
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#logo_home {
+  max-height: 50px;
+  max-width: 50px;
+
+}
+
+#menu_opt {
+  text-decoration: none;
+  color: #fafafa;
+  position: relative;
+  top: -15px;
+  margin-left: 120px;
+
+}
+
+#login {
+  padding: 10px 35px;
+  border: 1.5px solid #fafafa;
+  color: #fafafa;
+  text-decoration: none;
+  position: relative;
+  left: 90px;
+  top: -15px;
+}
+
+/* session 1 */
+  #first_part {
+    background-image: url(../img/calc_man.jpg);
+    background-color: #0079ac;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+    min-height: 600px;
+    position: relative;
+
+
+  /*  filter: blur(2px);*/
+  }
+
+  #section01 {
+    margin: 0;
+    padding: 50px 20px;
+    background-color: rgba(66, 134, 244, 0.3);
+    min-height: inherit;
+
+
+  }
+  #content_middle {
+    margin: auto;
+    margin-top: 100px;
+    max-width: 700px;
+  }
+
+  #principal {
+    max-height: 300px;
+  }
+
+  h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 0.5in;
+
+  }
+
+  #slogan {
+      position: relative;
+      right: 30px;
+      top: -220px;
+      text-shadow: 1px 1px 5px rgba(5,5,5, 0.4);
+      text-align: right;
+  }
+  #slogan_faca {
+    background-color: rgba(230, 230, 230, 0.7);
+    color: #0079ac;
+    font-weight: 800;
+    text-shadow: none;
+  }
+
+  a#first {
+  		position: absolute;
+
+  		/*bottom: 0px;*/
+  		right: 45%;
+  		bottom: 100px;
+  		z-index: 3;
+  		display: inline-block;
+  		text-align: center;
+  		color: #0e0e0e;
+  		transition: background-color .3s;
+  		padding: 40px;
+
+
+  		transition: bottom 0.3s;
+  		background-color: #009bdb;
+  		border-radius: 120px;
+  		box-shadow: 1px 1px 8px rgba(0,0,0,0.2);
+  	}
+
+  	a#first:hover {
+  		background-color: #18b2f2;
+  		box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+  		bottom: 95px;
+  	}
+
+  	/*
+  	#second_part a {
+  		padding-top: 60px;
+  	}
+  	*/
+  	a#first span{
+  		position: absolute;
+  		top: 30%;
+  		left: 50%;
+  		width: 24px;
+  		height: 24px;
+  		margin-left: -12px;
+  		border-left: 1px solid #fafafa;
+  		border-bottom: 1px solid #d8d8d8;
+  		-webkit-transform: rotate(-45deg);
+  		transform: rotate(-45deg);
+  		box-sizing: border-box;
+  	}
+
+
+/* - session 2 - */
+
+#second_part {
+  background-image: url(../img/calc_man.jpg);
+  background-color: #0079ac;
+  background-position: center;
+  background-size: cover;
+  margin: 0px;
+  min-height: 600px;
+  position: relative;
+
+
+/*  filter: blur(2px);*/
+}
+
+#section02 {
+  margin: 0;
+  padding: 50px 20px;
+  background-color: rgba(66, 134, 244, 0.3);
+  min-height: inherit;
+
+
+}
+#content_middle {
+  margin: auto;
+  margin-top: 100px;
+  max-width: 700px;
+}
+
+#img_rel_left {
+  max-height: 300px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 0.5in;
+
+}
+
+#slogan {
+    position: relative;
+    right: 30px;
+    top: -220px;
+    text-shadow: 1px 1px 5px rgba(5,5,5, 0.4);
+    text-align: right;
+}
+#slogan_faca {
+  background-color: rgba(230, 230, 230, 0.7);
+  color: #0079ac;
+  font-weight: 800;
+  text-shadow: none;
+}
+
+a#first {
+    position: absolute;
+
+    /*bottom: 0px;*/
+    right: 45%;
+    bottom: 100px;
+    z-index: 3;
+    display: inline-block;
+    text-align: center;
+    color: #0e0e0e;
+    transition: background-color .3s;
+    padding: 40px;
+
+
+    transition: bottom 0.3s;
+    background-color: #009bdb;
+    border-radius: 120px;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.2);
+  }
+
+  a#first:hover {
+    background-color: #18b2f2;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    bottom: 95px;
+  }
+
+  /*
+  #second_part a {
+    padding-top: 60px;
+  }
+  */
+  a#first span{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 1px solid #fafafa;
+    border-bottom: 1px solid #d8d8d8;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    box-sizing: border-box;
+  }
+
+/* - session last - */
+
+#last_part {
+  background-image: url(../img/reformado.jpg);
+  background-color: #0079ac;
+  background-position: center;
+  background-size: cover;
+  margin: 0px;
+  min-height: 600px;
+  position: relative;
+
+
+/*  filter: blur(2px);*/
+}
+
+#section_last {
+  margin: 0;
+  padding: 50px 20px;
+  background-color: rgba(66, 134, 244, 0.3);
+  min-height: inherit;
+
+
+}
+#content_middle {
+  margin: auto;
+  margin-top: 100px;
+  max-width: 700px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 0.5in;
+
+}
+
+#slogan {
+    position: relative;
+    right: 30px;
+    top: -220px;
+    text-shadow: 1px 1px 5px rgba(5,5,5, 0.4);
+    text-align: right;
+}
+#slogan_faca {
+  background-color: rgba(230, 230, 230, 0.7);
+  color: #0079ac;
+  font-weight: 800;
+  text-shadow: none;
+}
+
+a#first {
+    position: absolute;
+
+    /*bottom: 0px;*/
+    right: 45%;
+    bottom: 100px;
+    z-index: 3;
+    display: inline-block;
+    text-align: center;
+    color: #0e0e0e;
+    transition: background-color .3s;
+    padding: 40px;
+
+
+    transition: bottom 0.3s;
+    background-color: #009bdb;
+    border-radius: 120px;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.2);
+  }
+
+  a#first:hover {
+    background-color: #18b2f2;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    bottom: 95px;
+  }
+
+  /*
+  #second_part a {
+    padding-top: 60px;
+  }
+  */
+  a#first span{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 1px solid #fafafa;
+    border-bottom: 1px solid #d8d8d8;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    box-sizing: border-box;
+  }
+
+
+
+
+
+@media screen and (max-width: 975px){
+    #menu_opt {
+      margin-left: 60px;
+    }
+  .top {
+    margin: auto;
+
+  }
+}
